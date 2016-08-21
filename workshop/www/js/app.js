@@ -2,6 +2,8 @@
 (function () {
 
     /* ---------------------------------- Local Variables ---------------------------------- */
+    var homeTpl = Handlebars.compile($("#home-tpl").html());
+    var employeeListTpl = Handlebars.compile($("#employee-list-tpl").html());
     var service = new EmployeeService();
     service.initialize().done(function () {
         renderHomeView();
