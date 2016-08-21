@@ -8,7 +8,7 @@
     });
 
     /* --------------------------------- Event Registration -------------------------------- */
-    $('.search-key').on('keyup', findByName);
+    // $('.search-key').on('keyup', findByName);
     $('.help-btn').on('click', function() {
         alert("Employee Directory v3.4");
     });
